@@ -1,0 +1,58 @@
+descript
+{
+	version,1
+}
+
+surface0
+{
+	animation0.interval,always
+	animation0.pattern0,overlay,10,0,0,0
+	animation0.pattern1,overlay,11,200,0,0
+	animation0.pattern2,overlay,-1,200,0,0
+}
+
+surface1
+{
+	animation1.interval,always
+	animation1.pattern0,overlay,12,0,0,0
+	animation1.pattern1,overlay,13,200,0,0
+	animation1.pattern2,overlay,-1,200,0,0
+}
+
+surface2
+{
+	animation0.interval,always
+	animation0.pattern0,overlay,14,0,0,0
+	animation0.pattern1,overlay,15,200,0,0
+	animation0.pattern2,overlay,-1,200,0,0
+}
+
+surface3
+{
+	collisionex0,head,region,collision3.png,0,0,255
+	
+	animation0.interval,always
+	animation0.pattern0,overlay,16,0,0,0
+	animation0.pattern1,overlay,17,200,0,0
+	animation0.pattern2,overlay,-1,200,0,0
+}
+
+surface4
+{
+	collisionex0,head,region,collision4.png,0,0,255
+	
+	animation0.interval,always
+	animation0.pattern0,overlay,18,0,0,0
+	animation0.pattern1,overlay,19,200,0,0
+	animation0.pattern2,overlay,-1,200,0,0
+}
+
+surface9
+{
+	
+}
+
+surface.append0-2
+{
+	collisionex0,head,region,collision0.png,0,0,255
+}
